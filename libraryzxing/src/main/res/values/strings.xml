@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookManager</string>
+    <string name="libraryzxing_get_pic_fail">Failed to get image</string>
+    <string name="libraryzxing_analysis_pic_fail">Image format error</string>
+</resources>

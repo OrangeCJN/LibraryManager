@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="280dp"
+    android:background="#f2f2f2"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="Your Name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/sname"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:layout_weight="2.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="Original password"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/old_pass"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:inputType="textPassword"
+            android:layout_weight="2.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:text="New password"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/new_pass"
+            android:textSize="16sp"
+            android:textColor="#333"
+            android:inputType="textPassword"
+            android:layout_weight="2.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Confirm"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.3"
+            android:inputType="textPassword"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="CANCEL"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_bg"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/save"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:text="OK"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="@drawable/btn_bg"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>
